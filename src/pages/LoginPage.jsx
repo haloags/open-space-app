@@ -22,11 +22,11 @@ function LoginPage() {
         <h2>
           See
           {' '}
-          <strong>The World</strong>
+          <strong>The Big World</strong>
           ,
           {' '}
           <br />
-          Through Open Space.
+          Through Open Space App.
         </h2>
 
         <LoginInput login={onLogin} />
