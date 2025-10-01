@@ -40,6 +40,7 @@ function DetailPage() {
       {
         talkDetail.parent && (
           <div className="detail-page__parent">
+            <h2>Detail Talk</h2>
             <h3>Replying To</h3>
             <TalkItem {...talkDetail.parent} authUser={authUser.id} />
           </div>
